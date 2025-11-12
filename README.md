@@ -5,7 +5,7 @@ It mirrors real-world **product and customer analytics** scenarios, focusing on 
 
 ---
 
-## 🧠 Overview
+## Overview
 
 The goal of this project is to:
 - Explore customer subscription patterns and retention trends.
@@ -15,7 +15,7 @@ The goal of this project is to:
 
 ---
 
-## ⚙️ Tools Used
+## Tools Used
 
 | Tool | Purpose |
 |------|----------|
@@ -26,7 +26,7 @@ The goal of this project is to:
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 streaming-analytics-dashboard/
 │
@@ -47,7 +47,7 @@ Copy code
 
 ---
 
-## 📊 Next Steps
+## Next Steps
 
 1. Clean and validate the dataset in SQL.  
 2. Build retention and churn queries by cohort and subscription type.  
@@ -56,7 +56,7 @@ Copy code
 
 ---
 
-## 📈 Outcome
+## Outcome
 
 The final deliverable will be a **Tableau Public dashboard** showing:
 - Monthly cohort retention trends.  
