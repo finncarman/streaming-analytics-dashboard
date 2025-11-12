@@ -28,22 +28,10 @@ The goal of this project is to:
 
 ## Project Structure
 
-streaming-analytics-dashboard/
-│
-├── data/
-│ ├── Subscription Cohort Analysis Data.csv
-│ └── Subscription Cohort Analysis Data Dictionary.csv
-│
-├── sql/
-│ └── subscription_analysis.sql
-│
-├── screenshots/
-│ └── dashboard_preview.png
-│
-└── README.md
-
-yaml
-Copy code
+- **/data** – raw and cleaned datasets  
+- **/sql** – SQL scripts for cleaning and cohort analysis  
+- **/screenshots** – dashboard previews and visuals  
+- **README.md** – project documentation  
 
 ---
 
