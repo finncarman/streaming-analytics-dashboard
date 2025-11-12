@@ -1,8 +1,6 @@
 # streaming-analytics-dashboard
 End-to-end product analytics project analysing subscription, retention, and churn data using SQL and Tableau. Built from the Maven Analytics Subscription Cohort dataset.
 
----
-
 This project analyses user subscription behaviour, retention, and churn using data from Maven Analytics’ **Subscription Cohort Analysis** dataset.  
 It mirrors real-world **product and customer analytics** scenarios, focusing on understanding engagement and lifetime value across different customer segments.
 
