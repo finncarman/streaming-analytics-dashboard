@@ -1,6 +1,6 @@
 # Streaming Subscription Analytics Dashboard
 
-An end-to-end data analytics project exploring retention, churn, revenue growth, and lifetime value across customer cohorts for a subscription-based streaming platform.
+A complete data analytics project exploring retention, churn, revenue growth, and lifetime value across customer cohorts for a subscription-based streaming platform.
 
 ---
 
