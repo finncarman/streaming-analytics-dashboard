@@ -59,7 +59,7 @@ The dataset simulates real-world subscription activity, including join dates, ca
 
 🔗 **[View the Interactive Dashboard on Tableau Public](https://public.tableau.com/app/profile/finn.carman/viz/StreamingDataAnalysis_17633808570700/StreamingAnalyticsDashboard)**
 
-![Streaming Subscription Analytics Dashboard](tableau/dashboard_screenshot.png)
+![Streaming Subscription Analytics Dashboard](Streaming Analytics Dashboard.png)
 
 ---
 
