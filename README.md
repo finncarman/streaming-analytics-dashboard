@@ -1,54 +1,87 @@
-# streaming-analytics-dashboard
+# Streaming Subscription Analytics Dashboard
 
-This project analyses user subscription behaviour, retention, and churn using data from Maven Analytics’ **Subscription Cohort Analysis** dataset.  
-It mirrors real-world **product and customer analytics** scenarios, focusing on understanding engagement and lifetime value across different customer segments.
+An end-to-end data analytics project exploring retention, churn, revenue growth, and lifetime value across customer cohorts for a subscription-based streaming platform.
 
 ---
 
-## Overview
+## Project Overview
+This project combines **SQL** data preparation and **Tableau** visualisation to uncover trends in customer behaviour, helping understand what drives retention and long-term growth.
 
-The goal of this project is to:
-- Explore customer subscription patterns and retention trends.
-- Identify churn rates by cohort and plan type.
-- Calculate customer lifetime value (LTV) metrics.
-- Build a dynamic Tableau dashboard to visualise insights.
+The dataset simulates real-world subscription activity, including join dates, cancellation data, and payment details. It was cleaned, transformed, and visualised to deliver actionable insights.
+
+---
+
+## Objectives
+- Identify customer churn and retention trends over time.  
+- Analyse cohort-based revenue and lifetime value growth.  
+- Evaluate customer tenure and average engagement period.  
+- Build a professional analytics dashboard to visualise KPIs and trends clearly.
+
+---
+
+## Repository Structure
+    streaming-analytics-dashboard/
+    ├── data/
+    │   ├── Subscription Cohort Analysis Data.csv
+    │   └── Subscription Cohort Analysis Data Dictionary.csv
+    │
+    ├── sql/
+    │   └── streaming_data_cleaning_queries.sql
+    │
+    ├── tableau/
+    │   └── dashboard_screenshot.png
+    │
+    └── README.md
 
 ---
 
 ## Tools Used
-
-| Tool | Purpose |
-|------|----------|
-| **SQL** | Data cleaning, cohort analysis, retention calculations |
-| **Excel / CSV** | Initial data exploration and validation |
-| **Tableau Public** | Dashboard creation & insight storytelling |
-| **GitHub** | Version control & portfolio showcase |
+- **SQL (MySQL Workbench)** – Data cleaning, transformation & cohort preparation.  
+- **Tableau Public** – Dashboard design & visualisation.  
+- **Excel** – Exploratory review and data validation.
 
 ---
 
-## Project Structure
-
-- **/data** – raw and cleaned datasets  
-- **/sql** – SQL scripts for cleaning and cohort analysis  
-- **/screenshots** – dashboard previews and visuals  
-- **README.md** – project documentation  
-
----
-
-## Next Steps
-
-1. Clean and validate the dataset in SQL.  
-2. Build retention and churn queries by cohort and subscription type.  
-3. Create KPI metrics (e.g., Average Tenure, Active Subscriptions, Churn Rate).  
-4. Visualise results in Tableau Public.
+## SQL Workflow Summary
+1. Imported the raw CSV and formatted `created_date` and `canceled_date` columns.  
+2. Calculated active users per month, churned users, and retention by cohort.  
+3. Derived key KPIs:
+   - Churn Rate %
+   - Retention Rate %
+   - Average Tenure (Months)
+   - Total & Cumulative Revenue
+   - Estimated Customer Lifetime Value (LTV)
+4. Exported cleaned and aggregated tables for Tableau.
 
 ---
 
-## Outcome
+## Tableau Dashboard
 
-The final deliverable will be a **Tableau Public dashboard** showing:
-- Monthly cohort retention trends.  
-- Subscription churn breakdown by plan type.  
-- Key KPIs summarising performance over time.
+🔗 **[View the Interactive Dashboard on Tableau Public](https://public.tableau.com/app/profile/finn.carman/viz/StreamingDataAnalysis_17633808570700/StreamingAnalyticsDashboard)**
+
+![Streaming Subscription Analytics Dashboard](tableau/dashboard_screenshot.png)
 
 ---
+
+## Key Insights
+- Retention improved mid-year before tapering off in later cohorts.  
+- Revenue grew steadily, surpassing **£120K cumulative** by the end of the observed period.  
+- Average customer tenure stabilised around **12 months**.  
+- Later cohorts showed higher **LTV**, indicating stronger engagement and user value.
+
+---
+
+## Learnings & Takeaways
+- Reinforced experience in SQL cleaning, joining, and aggregating time-based datasets.  
+- Enhanced Tableau design skills, focusing on layout, KPI hierarchy, and interactive storytelling.  
+- Strengthened understanding of subscription analytics — churn, retention, and LTV modelling.
+
+---
+
+## License
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
+
+© 2025 Finn Carman – Data Analytics Portfolio Project
+
